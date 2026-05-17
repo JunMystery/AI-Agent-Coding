@@ -8,7 +8,7 @@ Sao chép các lệnh `@file` bên dưới vào prompt của bạn để kích h
 
 ## Công việc hàng ngày (không cần reference thêm)
 
-AI agent **đã tự động load** 4 Nguyên tắc Karpathy từ file gốc (`CLAUDE.md`, `GEMINI.md`, v.v.) ngay khi mở project. Bạn chỉ cần mô tả yêu cầu bình thường — agent sẽ tự tuân thủ các nguyên tắc:
+AI agent **đã tự động load** 5 Nguyên tắc Karpathy từ file gốc (`CLAUDE.md`, `GEMINI.md`, v.v.) ngay khi mở project. Bạn chỉ cần mô tả yêu cầu bình thường — agent sẽ tự tuân thủ các nguyên tắc:
 
 1. **Think Before Coding** — Nêu giả định, hỏi khi không rõ
 2. **Simplicity First** — Code tối thiểu, không thêm tính năng dư thừa

@@ -62,6 +62,13 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
+## 5. DRY & Reusability
+
+**Never duplicate UI or logic. Always use shared systems.**
+
+- **UI/Styling:** Always utilize the project's existing design system, shared assets, or global CSS variables. Do not hardcode disjointed styles or create duplicate UI components.
+- **Logic:** Extract any logic used 2+ times into pure, reusable functions within the project's established shared directories. Do not repeat the same logic blocks.
+
 ---
 
 ## How to Know These Guidelines Are Working

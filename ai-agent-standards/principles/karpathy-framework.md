@@ -222,7 +222,7 @@ STEP 3: AI Generates Code + Self-Check Report
 │  └─ Simple code, focused changes, verifies own success criteria
 │
 STEP 4: Review Code + Self-Check Report ← CRITICAL
-├─ YOU verify: All 4 principles
+├─ YOU verify: All 5 principles
 │  ├─ #1: Were assumptions clear? Success criteria defined?
 │  ├─ #2: Code simple or overengineered?
 │  ├─ #3: Changes surgical or scope-creeping?
@@ -232,7 +232,7 @@ STEP 5: Approve OR Request Changes
 ├─ If FAIL on any principle → Back to Step 2 with feedback
 │
 STEP 6: Merge to Git
-│  └─ Merged code adheres to all 4 principles
+│  └─ Merged code adheres to all 5 principles
 │
 STEP 7: Done! Log metrics
 ```
@@ -330,7 +330,7 @@ A: Yes—but they're specific to LLM assistance. Human programmers often rely on
 **Q: What if the request IS vague?**  
 A: That's the point! Principle #1 says: surfacing vagueness IS the right move. Don't code around it.
 
-**Q: Do I apply all 4 principles to every task?**  
+**Q: Do I apply all 5 principles to every task?**  
 A: Yes. For trivial tasks, they're lightweight. For complex tasks, they prevent major rework.
 
 **Q: What if AI refuses to simplify?**  
@@ -345,7 +345,7 @@ A: Partially—see CI/CD gates in quality-control/. Code complexity metrics, tes
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.0 | May 13, 2026 | Initial framework—4 principles, pipeline integration, reviewer checklist |
+| 1.0 | May 13, 2026 | Initial framework—5 principles, pipeline integration, reviewer checklist |
 
 ---
 

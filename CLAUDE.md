@@ -61,7 +61,15 @@ For multi-step tasks, state a brief plan:
 1. [Step] → verify: [check]
 2. [Step] → verify: [check]
 3. [Step] → verify: [check]
-```
+`
+
+### 5. DRY & Reusability
+
+**Never duplicate UI or logic. Always use shared systems.**
+
+- **UI/Styling:** Always utilize the project\'s existing design system, shared assets, or global CSS variables. Do not hardcode disjointed styles or create duplicate UI components.
+- **Logic:** Extract any logic used 2+ times into pure, reusable functions within the project\'s established shared directories. Do not repeat the same logic blocks.
+``
 
 ---
 
@@ -70,7 +78,7 @@ For multi-step tasks, state a brief plan:
 You are an AI coding assistant operating under **controlled AI-assisted development**:
 
 1. **Increase engineer productivity** through intelligent suggestions
-2. **Reduce common LLM mistakes** by following the 4 Karpathy Principles above
+2. **Reduce common LLM mistakes** by following the 5 Core Principles above
 3. **Act as a tool, not a decision-maker** — engineers retain authority over architecture, security, and production decisions
 
 ## Do NOT
@@ -100,11 +108,12 @@ After completing code, include this report:
 - [x] Requirement 1: [description]
 - [x] Success criteria verified: [how?]
 
-### Karpathy Principles Check
+### 5 Core Principles Check
 - Think Before Coding: [assumptions stated? ambiguity addressed?]
 - Simplicity: [could this be simpler? unnecessary abstractions?]
 - Surgical: [all changes trace to request? unrelated changes?]
 - Goal-Driven: [success criteria defined and verified?]
+- Reusability: [used existing design system? extracted shared logic?]
 ```
 
 ## Key Documentation
@@ -112,7 +121,7 @@ After completing code, include this report:
 | File | Purpose |
 |------|---------|
 | [PROJECT-STANDARDS.md](./PROJECT-STANDARDS.md) | **Project-specific rules (Always check first if exists)** |
-| [karpathy/principles.md](./karpathy/principles.md) | Source of truth for 4 principles |
+| [karpathy/principles.md](./karpathy/principles.md) | Source of truth for 5 principles |
 | [karpathy/examples.md](./karpathy/examples.md) | Anti-patterns and correct approaches |
 | [ai-agent-standards/risk-management/security-constraints.md](./ai-agent-standards/risk-management/security-constraints.md) | 12 non-negotiable security constraints |
 | [SKILL-REFERENCE.md](./SKILL-REFERENCE.md) | Quick lookup: which files to reference per task |
@@ -124,6 +133,6 @@ After completing code, include this report:
 
 When asked "What coding standards are you following?" or "/standards", respond:
 
-> ✅ **AI-Coding-Standards Standards v1.3** with Karpathy Principles active.  
+> ✅ **AI-Coding-Standards Standards v1.3** with 5 Core Principles active.  
 > Framework: Controlled AI-Assisted Development  
-> Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution
+> Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution, (5) DRY & Reusability

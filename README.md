@@ -30,7 +30,7 @@ See [SKILL-REFERENCE.md](./SKILL-REFERENCE.md) — quick lookup for which files 
 
 ---
 
-## 🎯 The 4 Karpathy Principles
+## 🎯 The 5 Core Principles
 
 The behavioral foundation for all AI-assisted coding, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876):
 
@@ -40,6 +40,7 @@ The behavioral foundation for all AI-assisted coding, derived from [Andrej Karpa
 | 2 | **Simplicity First** | Minimum code, no speculative features | Over-engineering, bloat |
 | 3 | **Surgical Changes** | Touch only what you must, match existing style | Scope creep, drive-by refactors |
 | 4 | **Goal-Driven Execution** | Define verifiable success criteria | Ambiguous outcomes, wasted iterations |
+| 5 | **DRY & Reusability** | Never duplicate UI or logic, use shared systems | Hardcoded styles, duplicated bugs |
 
 **Learn more:**
 - [karpathy/principles.md](./karpathy/principles.md) — Source of truth (5 min read)
@@ -58,7 +59,7 @@ The behavioral foundation for all AI-assisted coding, derived from [Andrej Karpa
 | **Cursor** | [`.cursor/rules/karpathy-guidelines.mdc`](./.cursor/rules/karpathy-guidelines.mdc) | ✅ |
 | **Windsurf** | [`.cursorrules`](./.cursorrules) | ✅ |
 
-Each file contains the 4 Karpathy Principles, role definitions, and a **verification prompt** so you can confirm the agent loaded the correct skills.
+Each file contains the 5 Core Principles, role definitions, and a **verification prompt** so you can confirm the agent loaded the correct skills.
 
 ---
 
@@ -77,7 +78,7 @@ AI-Coding-Standards/
 │
 │ ── KARPATHY PRINCIPLES (source of truth) ──
 ├── karpathy/
-│   ├── principles.md            → The 4 principles
+│   ├── principles.md            → The 5 principles
 │   └── examples.md              → Anti-patterns & correct approaches
 │
 │ ── FRAMEWORK DOCUMENTATION ──
@@ -103,6 +104,7 @@ AI-Coding-Standards/
 │
 │ ── ROOT FILES ──
 ├── PROJECT-STANDARDS.md         → Project-specific rules (drop-in)
+├── PROJECT-STANDARDS-EXAMPLE.md → Templates & examples for project rules
 ├── SKILL-REFERENCE.md           → Quick lookup: which files to @reference
 ├── SKILL-REFERENCE_VI.md        → Same, Vietnamese with explanations
 ├── AI-Research-Writing-Skill.md → Controlled RAG research & writing skill

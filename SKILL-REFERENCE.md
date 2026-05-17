@@ -8,7 +8,7 @@ Copy the `@file` references into your prompt to activate the relevant skills.
 
 ## Everyday Coding (no extra reference needed)
 
-Your AI agent **already loaded** the 4 Karpathy Principles from the root instruction file (`CLAUDE.md`, `GEMINI.md`, etc.). Just describe your task normally.
+Your AI agent **already loaded** the 5 Core Principles from the root instruction file (`CLAUDE.md`, `GEMINI.md`, etc.). Just describe your task normally.
 
 *(Note: If you have project-specific rules, add them to `PROJECT-STANDARDS.md`. The AI will automatically read it.)*
 

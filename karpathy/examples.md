@@ -342,6 +342,54 @@ Start with step 1?
 
 ---
 
+## 5. DRY & Reusability
+
+### Example 1: UI Design System
+
+**User Request:** "Add a submit button to the form"
+
+**❌ What LLMs Do (Hardcoding Styles)**
+
+```html
+<button style="background-color: #E53935; color: white; padding: 10px 20px; border-radius: 4px; border: none; font-weight: bold;">
+    Submit
+</button>
+```
+
+**✅ What Should Happen (Reusability)**
+
+```html
+<!-- Assuming the project uses a UI library or shared CSS -->
+<Button variant="primary">Submit</Button>
+<!-- OR -->
+<button class="btn btn-primary">Submit</button>
+```
+
+### Example 2: Logic Duplication
+
+**User Request:** "Format the price on the cart page"
+
+**❌ What LLMs Do (Repeating Logic)**
+
+```javascript
+// Writing the same formatting logic for the 5th time in the project
+const formattedPrice = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD'
+}).format(cart.total);
+```
+
+**✅ What Should Happen (Reusability)**
+
+```javascript
+// Using an existing shared function, or creating one in a shared utils directory
+import { formatCurrency } from '@/utils/currency';
+
+const formattedPrice = formatCurrency(cart.total);
+```
+
+---
+
 ## Anti-Patterns Summary
 
 | Principle | Anti-Pattern | Fix |
@@ -350,6 +398,7 @@ Start with step 1?
 | Simplicity First | Strategy pattern for single discount calculation | One function until complexity is actually needed |
 | Surgical Changes | Reformats quotes, adds type hints while fixing bug | Only change lines that fix the reported issue |
 | Goal-Driven | "I'll review and improve the code" | "Write test for bug X → make it pass → verify no regressions" |
+| DRY & Reusability | Hardcoding inline styles or duplicating logic | Use existing design system components and shared utility functions |
 
 ## Key Insight
 

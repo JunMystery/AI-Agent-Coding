@@ -10,7 +10,7 @@
 
 | File | Purpose | Priority |
 |------|---------|----------|
-| [`../karpathy/principles.md`](../karpathy/principles.md) | **4 Karpathy Principles (source of truth)** | ⭐⭐⭐ |
+| [`../karpathy/principles.md`](../karpathy/principles.md) | **5 Core Principles (source of truth)** | ⭐⭐⭐ |
 | [`../karpathy/examples.md`](../karpathy/examples.md) | **Anti-patterns & correct approaches** | ⭐⭐⭐ |
 | [`onboarding/quick-reference.md`](onboarding/quick-reference.md) | 1-page cheat sheet (printable) | ⭐⭐⭐ |
 | [`onboarding/karpathy-principles-guide.md`](onboarding/karpathy-principles-guide.md) | Detailed training (20-30 min) | ⭐⭐⭐ |
@@ -23,7 +23,7 @@
 
 | File | Purpose | Priority |
 |------|---------|----------|
-| [`principles/karpathy-framework.md`](principles/karpathy-framework.md) | Reviewer checklist for 4 principles | ⭐⭐⭐ |
+| [`principles/karpathy-framework.md`](principles/karpathy-framework.md) | Reviewer checklist for 5 principles | ⭐⭐⭐ |
 | [`quality-control/code-review-checklist.md`](quality-control/code-review-checklist.md) | Checklist with Karpathy validation | ⭐⭐⭐ |
 | [`quality-control/audit-ai-code-full.md`](quality-control/audit-ai-code-full.md) | Detailed audit checklist | ⭐⭐⭐ |
 | [`quality-control/hallucination-detection.md`](quality-control/hallucination-detection.md) | Detecting AI hallucinations | ⭐⭐ |
@@ -162,6 +162,7 @@
 | File | Purpose |
 |------|---------|
 | `PROJECT-STANDARDS.md` | **Project-specific rules (Always check first if exists)** |
+| `PROJECT-STANDARDS-EXAMPLE.md` | Templates & examples to copy into your project standards |
 | `CLAUDE.md` | Claude Code auto-discovery instructions |
 | `GEMINI.md` | Gemini Code Assist auto-discovery instructions |
 | `COPILOT.md` | GitHub Copilot custom instructions |

@@ -63,7 +63,7 @@ You are an AI coding assistant operating under **controlled AI-assisted developm
 | File | Purpose |
 |------|---------|
 | [PROJECT-STANDARDS.md](./PROJECT-STANDARDS.md) | **Project-specific rules (Always check first if exists)** |
-| [karpathy/principles.md](./karpathy/principles.md) | Source of truth for 4 principles |
+| [karpathy/principles.md](./karpathy/principles.md) | Source of truth for 5 principles |
 | [karpathy/examples.md](./karpathy/examples.md) | Anti-patterns and correct approaches |
 | [ai-agent-standards/risk-management/security-constraints.md](./ai-agent-standards/risk-management/security-constraints.md) | 12 non-negotiable security constraints |
 | [SKILL-REFERENCE.md](./SKILL-REFERENCE.md) | Quick lookup: which files to reference per task |
@@ -75,6 +75,6 @@ You are an AI coding assistant operating under **controlled AI-assisted developm
 
 When asked "What coding standards are you following?" or "/standards", respond:
 
-> ✅ **AI-Coding-Standards Standards v1.3** with Karpathy Principles active.  
+> ✅ **AI-Coding-Standards Standards v1.3** with 5 Core Principles active.  
 > Framework: Controlled AI-Assisted Development  
-> Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution
+> Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution, (5) DRY & Reusability

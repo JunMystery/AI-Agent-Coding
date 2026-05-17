@@ -1,37 +1,33 @@
 # 🛠️ Project-Specific AI Agent Standards
 
-File này chứa các chuẩn mực, quy ước và quy tắc dành riêng cho dự án này. AI Agent bắt buộc phải tuân thủ các quy tắc trong đây, song song với các bộ tiêu chuẩn lõi (như `GEMINI.md`, `CLAUDE.md`).
+This file contains standards, conventions, and rules specific to this project. AI Agents MUST adhere to the rules herein, in parallel with the core standards (like `GEMINI.md`, `CLAUDE.md`).
 
-> **💡 Hướng dẫn:** 
-> - Hoạt động độc lập: Chỉ cần tạo/sửa file này, AI Agent sẽ tự động nhận diện.
-> - **Tùy biến hoàn toàn:** Bạn có quyền tự thêm các trường thông tin mới (VD: "Người review", "Ngày áp dụng") nếu thấy cần thiết. Miễn là nó ở dạng danh sách (bullet point).
-> - Sử dụng file này để định nghĩa: kiến trúc dự án, thư viện ưu tiên, quy ước đặt tên, luồng xử lý lỗi, v.v.
-
----
-
-## 🏗️ Khung Mẫu (Template)
-
-*(Copy khối dưới đây để thêm một chuẩn mực mới. Bạn có thể tự ý thêm/bớt bất kỳ trường thông tin nào tùy theo nhu cầu)*
-
-### [Tên Chuẩn mực / Hạng mục]
-- **Quy tắc (Bắt buộc):** [Mô tả rõ ràng quy tắc AI cần tuân theo]
-- **Lý do (Bắt buộc):** [Giải thích ngắn gọn lý do có quy tắc này]
-- **Nên làm / Ví dụ Đúng (Tùy chọn):** [Ví dụ về code/hành vi đúng]
-- **Không nên / Ví dụ Sai (Tùy chọn):** [Ví dụ về code/hành vi sai]
-- **Phạm vi áp dụng (Tùy chọn):** [Ví dụ: Chỉ áp dụng cho code Frontend, hoặc chỉ các file .ts]
-- **Tài liệu tham chiếu (Tùy chọn):** [Link hoặc đường dẫn đến tài liệu, file design, issue...]
-- **Ngoại lệ (Tùy chọn):** [Các trường hợp không cần áp dụng quy tắc này]
-- **Lệnh Terminal (Tùy chọn):** [Các lệnh cần chạy, ví dụ: npm run lint]
-- **Cách Kiểm thử (Tùy chọn):** [Làm sao để biết quy tắc này đã được tuân thủ?]
+> **💡 Instructions:**
+> - **Independent operation:** Simply create/edit this file, and the AI Agent will automatically detect it.
+> - **Fully customizable:** You can add new fields (e.g., "Reviewer", "Effective Date") if necessary. Just keep it in a bulleted list format.
+> - Use this file to define: project architecture, preferred libraries, naming conventions, error handling flows, etc.
 
 ---
 
-## 📋 Danh sách Chuẩn mực của Dự án (Tùy chỉnh bên dưới)
+## 🏗️ Template
 
-### 1. Quy ước đặt tên file cấu hình (Ví dụ mẫu - Vui lòng xóa/thay thế)
-- **Quy tắc (Bắt buộc):** Tất cả các file cấu hình mới phải sử dụng `kebab-case` và có hậu tố là `.config.json`.
-- **Lý do (Bắt buộc):** Đảm bảo sự đồng nhất và dễ dàng tìm kiếm cấu hình trong toàn bộ dự án.
-- **Nên làm / Ví dụ Đúng (Tùy chọn):** `database-connection.config.json`
-- **Không nên / Ví dụ Sai (Tùy chọn):** `DatabaseConnection.json`, `db_config.json`
-- **Phạm vi áp dụng (Tùy chọn):** Chỉ áp dụng cho các file cấu hình nằm trong thư mục `/config`.
-- **Ngoại lệ (Tùy chọn):** Không áp dụng cho các file cấu hình mặc định của framework (ví dụ `package.json`, `tsconfig.json`).
+*(Copy the block below to add a new standard. You can add/remove any fields according to your needs)*
+
+### [Standard Name / Category]
+- **Rule (Required):** [Clear description of the rule the AI must follow]
+- **Reason (Required):** [Brief explanation of why this rule exists]
+- **Do / Good Example (Optional):** [Example of correct code/behavior]
+- **Don't / Bad Example (Optional):** [Example of incorrect code/behavior]
+- **Scope (Optional):** [e.g.: Only applies to Frontend code, or only .ts files]
+- **Reference (Optional):** [Link or path to documentation, design file, issue...]
+- **Exceptions (Optional):** [Cases where this rule does not apply]
+- **Terminal Command (Optional):** [Commands to run, e.g.: npm run lint]
+- **How to Test (Optional):** [How to know this rule has been followed?]
+
+---
+
+## 📋 Project Standards List (Customize below)
+
+*(You can check the `PROJECT-STANDARDS-EXAMPLE.md` file in the same directory for available template examples and copy/paste them here to enforce them as hard rules for your project)*
+
+<!-- ADD YOUR STANDARDS BELOW -->
