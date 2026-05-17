@@ -14,10 +14,19 @@ AI agent **đã tự động load** 5 Nguyên tắc Karpathy từ file gốc (`C
 2. **Simplicity First** — Code tối thiểu, không thêm tính năng dư thừa
 3. **Surgical Changes** — Chỉ sửa đúng phần cần thiết
 4. **Goal-Driven Execution** — Xác định tiêu chí thành công trước khi code
+5. **DRY & Reusability** — Không lặp lại UI/Logic
 
 **→ Không cần gõ thêm gì. Agent đã biết.**
 
 *(Lưu ý: Nếu dự án có luật riêng, hãy viết vào file `PROJECT-STANDARDS.md` tại thư mục gốc. Agent sẽ tự động học các luật này.)*
+
+---
+
+## 🤖 Nhận diện kỹ năng tự động (Dynamic Auto-Discovery - v2.0)
+
+Các AI Agent hiện đại (Cursor, Windsurf, Claude Code, Gemini tích hợp trong IDE) hiện đã được trang bị tính năng **Tự động nhận diện**. Khi yêu cầu của bạn có chứa các từ khóa như "Viết test", "Bảo mật", "Tối ưu hiệu năng", AI sẽ *tự động âm thầm* gọi lệnh đọc các file tiêu chuẩn tương ứng ở bên dưới.
+
+Bạn CHỈ CẦN gõ lệnh `@reference` thủ công nếu bạn đang dùng các Chatbot web (không có quyền đọc file) hoặc muốn ép AI đọc một Cookbook cụ thể nào đó.
 
 ---
 
@@ -137,10 +146,76 @@ AI agent **đã tự động load** 5 Nguyên tắc Karpathy từ file gốc (`C
 ### 📱 Phát triển Mobile
 > Android, iOS, Flutter, React Native — lifecycle, permissions, offline, accessibility
 
-**Giải thích:** Cookbook tiêu chuẩn cho phát triển ứng dụng di động. Bao gồm: 10 lỗi thường gặp khi AI sinh code mobile (main thread blocking, context leak, lifecycle, hardcoded strings...), cấu trúc thư mục mẫu cho 3 nền tảng, và Self-Check report chuyên mobile.
+**Giải thích:** Cookbook tiêu chuẩn cho phát triển ứng dụng di động. Bao gồm: 10 lỗi thường gặp khi AI sinh code mobile, cấu trúc thư mục mẫu, và Self-Check report chuyên mobile.
 
 ```
 @ai-agent-standards/prompts/sample-use-cases/mobile-development-cookbook.md
+```
+
+---
+
+### 📚 Tài liệu & Changelog
+> Viết README, API Specs, Docstrings, hoặc cập nhật Changelog
+
+**Giải thích:** Ép AI tuân thủ chuẩn viết doc JSDoc, OpenAPI, Keep a Changelog và cấu trúc README chuẩn.
+
+```
+@ai-agent-standards/engineering-practices/DOCUMENTATION_STANDARDS.md
+```
+
+---
+
+### 🚀 Phát hành & Git Branching
+> Tăng version (SemVer), quản lý nhánh Gitflow, kiểm tra trước khi Release
+
+**Giải thích:** Hướng dẫn AI cách tự tính toán version nhảy bậc (Major/Minor/Patch) và tuân thủ checklist phát hành.
+
+```
+@ai-agent-standards/engineering-practices/RELEASE_PROCESS.md
+```
+
+---
+
+### 🧪 Chiến lược Test & TDD
+> Thiết lập Test Pyramid, ngưỡng Coverage, nguyên tắc FIRST
+
+**Giải thích:** Chuẩn mực ép AI viết test nhanh, cô lập, lặp lại được. Đề cao TDD và mock đúng cách.
+
+```
+@ai-agent-standards/engineering-practices/TESTING_STANDARDS.md
+```
+
+---
+
+### 🏎️ Hiệu năng & Tối ưu hóa DB
+> Caching, truy vấn N+1, xử lý đồng thời, giới hạn thời gian phản hồi
+
+**Giải thích:** Các quy tắc Non-Functional (NFRs) bắt buộc về tốc độ, tối ưu database (không N+1) và thiết lập Caching.
+
+```
+@ai-agent-standards/engineering-practices/NON_FUNCTIONAL_REQUIREMENTS.md
+```
+
+---
+
+### ⚖️ Tiêu chuẩn Ngành & Tuân thủ
+> Đối chiếu OWASP, NIST, CISA
+
+**Giải thích:** Bảng mapping các ràng buộc bảo mật của Repo vào các tiêu chuẩn quản trị rủi ro quốc tế.
+
+```
+@ai-agent-standards/compliance/COMPLIANCE.md
+```
+
+---
+
+### ♿ Khả năng tiếp cận UI (A11Y)
+> Review HTML/React cho người khuyết tật (WCAG 2.1 AA)
+
+**Giải thích:** Checklist bắt buộc về Semantic HTML, ARIA labels, màu sắc tương phản, và điều hướng bằng bàn phím.
+
+```
+@ai-agent-standards/compliance/A11Y_CHECKLIST.md
 ```
 
 ---
@@ -196,8 +271,8 @@ Bất cứ lúc nào, hỏi agent:
 > **"What coding standards are you following?"** hoặc gõ **`/standards`**
 
 Kết quả mong đợi:
-> ✅ **AI-Coding-Standards Standards v1.4** with Karpathy Principles active.  
+> ✅ **AI-Coding-Standards v2.0** with 5 Core Principles active.  
 > Framework: Controlled AI-Assisted Development  
-> Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution
+> Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution, (5) DRY & Reusability
 
 Nếu agent không trả về format trên → file instruction chưa được load. Kiểm tra lại file có nằm đúng root project không.

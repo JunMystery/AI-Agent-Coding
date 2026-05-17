@@ -22,7 +22,7 @@ Ask your AI agent:
 
 Expected response:
 
-> ✅ **AI-Coding-Standards Standards v1.4** with 5 Core Principles active.
+> ✅ **AI-Coding-Standards v2.0** with 5 Core Principles active.
 
 ### 3. Use Skills
 
@@ -90,6 +90,8 @@ AI-Coding-Standards/
 │   ├── quality-control/         → Review checklists, audit (11 sections)
 │   ├── risk-management/         → 12 security constraints (v2.0)
 │   ├── reference/               → Glossary, error reference
+│   ├── engineering-practices/   → Docs, Testing, Release, NFR standards
+│   ├── compliance/              → OWASP, NIST, WCAG A11Y guidelines
 │   └── multi-agent/             → 4 Agents: Coder, Test, Reviewer, Docs
 │
 │ ── CI/CD AUTOMATION ──
@@ -145,6 +147,14 @@ AI-Coding-Standards/
 | [risk-management/escalation-workflow.md](./ai-agent-standards/risk-management/escalation-workflow.md) | When & how to escalate AI failures |
 | [.github/pull_request_template.md](./.github/pull_request_template.md) | PR audit checklist (Zero-Trust, Two-Pair Eyes) |
 | [.github/workflows/ai-code-audit.yml](./.github/workflows/ai-code-audit.yml) | Automated SAST quality gate |
+
+### For Engineering & Compliance
+| File | Purpose |
+|------|---------|
+| [engineering-practices/TESTING_STANDARDS.md](./ai-agent-standards/engineering-practices/TESTING_STANDARDS.md) | Test Pyramid & FIRST principles |
+| [engineering-practices/NON_FUNCTIONAL_REQUIREMENTS.md](./ai-agent-standards/engineering-practices/NON_FUNCTIONAL_REQUIREMENTS.md) | Performance & Optimization bounds |
+| [compliance/COMPLIANCE.md](./ai-agent-standards/compliance/COMPLIANCE.md) | OWASP, NIST, CISA mapping |
+| [compliance/A11Y_CHECKLIST.md](./ai-agent-standards/compliance/A11Y_CHECKLIST.md) | WCAG 2.1 AA Checklist |
 
 ### For Multi-Agent Setup
 | File | Purpose |

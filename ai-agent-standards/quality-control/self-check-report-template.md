@@ -2,7 +2,7 @@
 
 **Self-check report template — AI must fill in before producing output**
 
-*Appendix C from original documentation | Updated with Karpathy Principles*
+*Appendix C from original documentation | Updated with 5 Core Principles*
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 🎯 Karpathy Principles Verification
+## 🎯 5 Core Principles Verification
 
 ### Principle 1: Think Before Coding ✓
 - [ ] Assumptions stated explicitly in prompt or clarified before implementation?
@@ -57,7 +57,15 @@
 - **Status:** ✓ PASS / ⚠️ PARTIAL / ❌ FAIL
 - **Notes:** [If not all pass, explain]
 
-**Overall Karpathy Assessment:** ✓ ALL PASS / ⚠️ MINOR ISSUES / ❌ REQUIRES REWORK
+### Principle 5: DRY & Reusability ✓
+- [ ] No hardcoded or disjointed styles added?
+- [ ] Existing design system components utilized?
+- [ ] Logic duplicated across multiple files? No
+- [ ] Shared logic extracted into pure, reusable functions?
+- **Status:** ✓ PASS / ⚠️ PARTIAL / ❌ FAIL
+- **Notes:** [If not all pass, explain]
+
+**Overall Principles Assessment:** ✓ ALL PASS / ⚠️ MINOR ISSUES / ❌ REQUIRES REWORK
 
 ---
 

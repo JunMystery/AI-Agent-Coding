@@ -14,6 +14,14 @@ Your AI agent **already loaded** the 5 Core Principles from the root instruction
 
 ---
 
+## 🤖 Dynamic Skill Auto-Discovery (New in v2.0)
+
+Modern AI agents (Cursor, Windsurf, Claude Code, Gemini with tools) are now equipped with **Auto-Discovery**. If your prompt mentions keywords like "Write tests", "Fix accessibility", or "Check security", the AI will *autonomously* read the relevant standard files below without you needing to manually `@reference` them.
+
+Manual `@reference` is only required if you are using a standard web chatbot (without file-reading tools) or if you want to strictly force the AI to read a specific cookbook.
+
+---
+
 ## By Task Type
 
 ### Security-Sensitive Code
@@ -94,6 +102,48 @@ Your AI agent **already loaded** the 5 Core Principles from the root instruction
 @ai-agent-standards/prompts/sample-use-cases/mobile-development-cookbook.md
 ```
 
+### Documentation & Changelogs
+> Writing README, API Specs, Docstrings, or Changelogs
+
+```
+@ai-agent-standards/engineering-practices/DOCUMENTATION_STANDARDS.md
+```
+
+### Release & Branching Strategy
+> Bumping versions (SemVer), Gitflow, or pre-release checks
+
+```
+@ai-agent-standards/engineering-practices/RELEASE_PROCESS.md
+```
+
+### Testing Strategy & TDD
+> Setting up test pyramids, coverage bounds, or adhering to FIRST principles
+
+```
+@ai-agent-standards/engineering-practices/TESTING_STANDARDS.md
+```
+
+### Performance & DB Optimization
+> Caching strategy, N+1 queries, concurrency, response time budgets
+
+```
+@ai-agent-standards/engineering-practices/NON_FUNCTIONAL_REQUIREMENTS.md
+```
+
+### Industry Compliance
+> OWASP, NIST, or CISA alignment checks
+
+```
+@ai-agent-standards/compliance/COMPLIANCE.md
+```
+
+### UI Accessibility (A11Y)
+> Reviewing HTML/React for WCAG 2.1 AA, ARIA, and Keyboard Navigation
+
+```
+@ai-agent-standards/compliance/A11Y_CHECKLIST.md
+```
+
 ---
 
 ## Multi-Agent Setup
@@ -134,4 +184,4 @@ At any time, ask your agent:
 > **"What coding standards are you following?"** or type **`/standards`**
 
 Expected:
-> ✅ AI-Coding-Standards Standards v1.4 with Karpathy Principles active.
+> ✅ AI-Coding-Standards v2.0 with 5 Core Principles active.

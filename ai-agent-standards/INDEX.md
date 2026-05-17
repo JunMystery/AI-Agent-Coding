@@ -77,6 +77,26 @@
 
 ---
 
+### 📂 `engineering-practices/` — Software Engineering Standards
+
+| File | Content |
+|------|---------|
+| [`engineering-practices/DOCUMENTATION_STANDARDS.md`](engineering-practices/DOCUMENTATION_STANDARDS.md) | README, Changelog, API & Docstring standards |
+| [`engineering-practices/RELEASE_PROCESS.md`](engineering-practices/RELEASE_PROCESS.md) | SemVer, Git branching, Release checklists |
+| [`engineering-practices/TESTING_STANDARDS.md`](engineering-practices/TESTING_STANDARDS.md) | Test pyramid, Coverage bounds, FIRST principles |
+| [`engineering-practices/NON_FUNCTIONAL_REQUIREMENTS.md`](engineering-practices/NON_FUNCTIONAL_REQUIREMENTS.md) | Performance, caching, DB optimization rules |
+
+---
+
+### 📂 `compliance/` — Industry Standards & Accessibility
+
+| File | Content |
+|------|---------|
+| [`compliance/COMPLIANCE.md`](compliance/COMPLIANCE.md) | OWASP Top 10 for LLM, NIST, CISA mapping |
+| [`compliance/A11Y_CHECKLIST.md`](compliance/A11Y_CHECKLIST.md) | WCAG 2.1 AA Accessibility checklist |
+
+---
+
 ### 📂 `prompts/` — Prompt Template Library
 
 | File | Content |

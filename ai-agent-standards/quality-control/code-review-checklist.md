@@ -105,7 +105,9 @@
 
 ### Section 6: Performance & Scalability
 - [ ] No N+1 database queries?
-- [ ] Caching strategy mentioned if applicable?
+- [ ] Caching strategy implemented (Redis, HTTP)?
+- [ ] Concurrency handled safely (no race conditions)?
+- [ ] Performance budgets met (e.g. response time < 200ms)?
 - [ ] Loops optimized (no unnecessary iteration)?
 - [ ] Memory usage reasonable?
 - [ ] No blocking operations on main thread?
@@ -137,6 +139,12 @@
 - [ ] API changes backward compatible?
 - [ ] Deprecation warnings added if needed?
 - [ ] Regression risk: LOW / MEDIUM / HIGH?
+
+### Section 11: Compliance & Accessibility (A11Y)
+- [ ] OWASP LLM top 10 risks mitigated?
+- [ ] Follows WCAG 2.1 AA accessibility standards?
+- [ ] Semantic HTML used instead of nested divs?
+- [ ] ARIA labels and keyboard navigation supported?
 
 ---
 
