@@ -17,6 +17,8 @@ AI agent **đã tự động load** 4 Nguyên tắc Karpathy từ file gốc (`C
 
 **→ Không cần gõ thêm gì. Agent đã biết.**
 
+*(Lưu ý: Nếu dự án có luật riêng, hãy viết vào file `PROJECT-STANDARDS.md` tại thư mục gốc. Agent sẽ tự động học các luật này.)*
+
 ---
 
 ## Tra cứu theo loại công việc

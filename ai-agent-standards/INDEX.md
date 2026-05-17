@@ -161,6 +161,7 @@
 
 | File | Purpose |
 |------|---------|
+| `PROJECT-STANDARDS.md` | **Project-specific rules (Always check first if exists)** |
 | `CLAUDE.md` | Claude Code auto-discovery instructions |
 | `GEMINI.md` | Gemini Code Assist auto-discovery instructions |
 | `COPILOT.md` | GitHub Copilot custom instructions |

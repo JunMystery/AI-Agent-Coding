@@ -102,6 +102,7 @@ AI-Coding-Standards/
 │   └── security-audit.sh        → Local security scan (all 12 constraints)
 │
 │ ── ROOT FILES ──
+├── PROJECT-STANDARDS.md         → Project-specific rules (drop-in)
 ├── SKILL-REFERENCE.md           → Quick lookup: which files to @reference
 ├── SKILL-REFERENCE_VI.md        → Same, Vietnamese with explanations
 ├── AI-Research-Writing-Skill.md → Controlled RAG research & writing skill

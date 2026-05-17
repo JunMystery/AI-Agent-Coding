@@ -111,6 +111,7 @@ After completing code, include this report:
 
 | File | Purpose |
 |------|---------|
+| [PROJECT-STANDARDS.md](./PROJECT-STANDARDS.md) | **Project-specific rules (Always check first if exists)** |
 | [karpathy/principles.md](./karpathy/principles.md) | Source of truth for 4 principles |
 | [karpathy/examples.md](./karpathy/examples.md) | Anti-patterns and correct approaches |
 | [ai-agent-standards/risk-management/security-constraints.md](./ai-agent-standards/risk-management/security-constraints.md) | 12 non-negotiable security constraints |
