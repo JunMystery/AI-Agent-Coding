@@ -1,6 +1,6 @@
 # AI Agent Coding Standards
 
-**Version:** 1.4.0 | **Release:** 2026-05-13 | **Language:** English
+**Version:** 2.0.0 | **Release:** 2026-05-17 | **Language:** English
 
 A **zero-config, drop-in framework** that makes AI coding agents (Claude, Gemini, Copilot, Cursor, Windsurf) follow disciplined coding practices based on the **5 Core Principles**. Includes 12 zero-trust security constraints, CI/CD quality gates, PR audit checklists, and multi-agent orchestration support.
 

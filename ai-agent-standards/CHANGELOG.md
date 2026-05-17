@@ -2,6 +2,28 @@
 
 Track versions and updates for the AI Agent Coding Standards framework.
 
+## [2.0.0] - 2026-05-17
+
+### Added (Enterprise Engineering & Compliance)
+- **`engineering-practices/`** — New module for Software Engineering Standards:
+  - `DOCUMENTATION_STANDARDS.md` (README, Changelog, JSDoc, OpenAPI)
+  - `RELEASE_PROCESS.md` (SemVer, Gitflow, pre-release checklists)
+  - `TESTING_STANDARDS.md` (Test Pyramid, 80% coverage bounds, FIRST principles)
+  - `NON_FUNCTIONAL_REQUIREMENTS.md` (Performance budgets, No N+1, Caching)
+- **`compliance/`** — New module for Industry Standards:
+  - `COMPLIANCE.md` (OWASP Top 10 for LLM, NIST RMF, CISA alignment)
+  - `A11Y_CHECKLIST.md` (WCAG 2.1 AA accessibility checklist)
+
+### Added (Dynamic Skill Auto-Discovery)
+- **Auto-Discovery Block** — Injected into all root instruction files (`GEMINI.md`, `CLAUDE.md`, `.cursorrules`, etc.). Modern AI agents will now self-load relevant standards dynamically based on the task prompt without requiring manual `@reference`.
+
+### Changed
+- **Version Bump** — Upgraded framework globally to v2.0.0.
+- **`SKILL-REFERENCE.md`** — Updated with Dynamic Auto-Discovery instructions and new Engineering & Compliance references.
+- **`code-review-checklist.md`** — Added Section 11 for Compliance & Accessibility, and expanded Section 6 for Performance budgets.
+
+---
+
 ## [1.4.0] - 2026-05-13
 
 ### Added (P0 — 12 Security Constraints)
@@ -118,6 +140,7 @@ Track versions and updates for the AI Agent Coding Standards framework.
 
 | Version | Date | Changes | Status |
 |---------|------|---------|--------|
+| 2.0.0 | 2026-05-17 | Enterprise Engineering Standards, Industry Compliance, Dynamic Skill Auto-Discovery | ✓ Released |
 | 1.4.0 | 2026-05-13 | 12 Security Constraints, 4-Agent Architecture, Mobile Cookbook, Skill Reference, CI/CD hardening | ✓ Released |
 | 1.1.0 | 2026-05-13 | Karpathy Skills Integration, English conversion, auto-discovery files | ✓ Released |
 | 1.0.0 | 2026-05-12 | Initial release | ✓ Released |
