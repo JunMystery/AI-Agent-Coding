@@ -1,8 +1,8 @@
 # AI Agent Coding Standards
 
-**Version:** 1.3.0 | **Release:** 2026-05-13 | **Language:** English
+**Version:** 1.4.0 | **Release:** 2026-05-13 | **Language:** English
 
-A **zero-config, drop-in framework** that makes AI coding agents (Claude, Gemini, Copilot, Cursor, Windsurf) follow disciplined coding practices based on the **Karpathy Principles**. Includes 12 zero-trust security constraints, CI/CD quality gates, PR audit checklists, and multi-agent orchestration support.
+A **zero-config, drop-in framework** that makes AI coding agents (Claude, Gemini, Copilot, Cursor, Windsurf) follow disciplined coding practices based on the **5 Core Principles**. Includes 12 zero-trust security constraints, CI/CD quality gates, PR audit checklists, and multi-agent orchestration support.
 
 > **Core philosophy:** AI is a tool, not a decision-maker. Engineers retain authority over architecture, security, and production decisions.
 
@@ -22,7 +22,7 @@ Ask your AI agent:
 
 Expected response:
 
-> ✅ **AI-Coding-Standards Standards v1.3** with Karpathy Principles active.
+> ✅ **AI-Coding-Standards Standards v1.4** with 5 Core Principles active.
 
 ### 3. Use Skills
 
@@ -171,7 +171,7 @@ AI-Coding-Standards/
    ↓
 5. QUALITY CONTROL PIPELINE
    - AI Generate → Self-Check → Self-Fix → Output
-   ✓ All 4 Principles verified in Self-Check Report
+   ✓ All 5 Principles verified in Self-Check Report
    ↓
 6. HUMAN GATE — Engineer Review 👤
    ✓ Apply Principle #4 (Goal-Driven Execution)

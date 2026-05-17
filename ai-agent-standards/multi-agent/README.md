@@ -1,7 +1,7 @@
 # Multi-Agent Framework
 
-**Status:** ✅ Implemented (v1.3.0)  
-**Framework:** AI-Coding-Standards Standards v1.3 with Karpathy Principles
+**Status:** ✅ Implemented (v1.4.0)  
+**Framework:** AI-Coding-Standards Standards v1.4 with Karpathy Principles
 
 ---
 

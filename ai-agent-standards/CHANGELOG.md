@@ -2,7 +2,7 @@
 
 Track versions and updates for the AI Agent Coding Standards framework.
 
-## [1.3.0] - 2026-05-13
+## [1.4.0] - 2026-05-13
 
 ### Added (P0 — 12 Security Constraints)
 - **`security-constraints.md` v2.0** — Expanded from 6 to 12 non-negotiable constraints:
@@ -29,7 +29,7 @@ Track versions and updates for the AI Agent Coding Standards framework.
 ### Changed
 - **All auto-discovery files** — Added security constraints + SKILL-REFERENCE references to: CLAUDE.md, GEMINI.md, COPILOT.md, .instructions.md, .cursorrules
 - **`ai-code-audit.yml`** — Added `security-scan` job running `scripts/security-audit.sh`
-- **`README.md`** — Updated repo structure, key files, version to 1.3.0
+- **`README.md`** — Updated repo structure, key files, version to 1.4.0
 - **`Development_doc_VI.md`** — Roadmap updated with all completed items
 
 ---
@@ -118,7 +118,7 @@ Track versions and updates for the AI Agent Coding Standards framework.
 
 | Version | Date | Changes | Status |
 |---------|------|---------|--------|
-| 1.3.0 | 2026-05-13 | 12 Security Constraints, 4-Agent Architecture, Mobile Cookbook, Skill Reference, CI/CD hardening | ✓ Released |
+| 1.4.0 | 2026-05-13 | 12 Security Constraints, 4-Agent Architecture, Mobile Cookbook, Skill Reference, CI/CD hardening | ✓ Released |
 | 1.1.0 | 2026-05-13 | Karpathy Skills Integration, English conversion, auto-discovery files | ✓ Released |
 | 1.0.0 | 2026-05-12 | Initial release | ✓ Released |
 

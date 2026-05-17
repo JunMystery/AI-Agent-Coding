@@ -50,7 +50,7 @@ or type:
 
 Expected response:
 
-> ✅ **AI-Coding-Standards Standards v1.3** with Karpathy Principles active.  
+> ✅ **AI-Coding-Standards Standards v1.4** with Karpathy Principles active.  
 > Framework: Controlled AI-Assisted Development  
 > Principles: (1) Think Before Coding, (2) Simplicity First, (3) Surgical Changes, (4) Goal-Driven Execution
 

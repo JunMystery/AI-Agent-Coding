@@ -134,4 +134,4 @@ At any time, ask your agent:
 > **"What coding standards are you following?"** or type **`/standards`**
 
 Expected:
-> ✅ AI-Coding-Standards Standards v1.3 with Karpathy Principles active.
+> ✅ AI-Coding-Standards Standards v1.4 with Karpathy Principles active.
